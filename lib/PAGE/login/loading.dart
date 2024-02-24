@@ -20,6 +20,7 @@ class _LoadingPageState extends State<LoadingPage> {
     Timer(const Duration(seconds: 2), NextPage);
   }
 
+  // ignore: non_constant_identifier_names
   void NextPage() {
     Navigator.pushAndRemoveUntil(
       context,
